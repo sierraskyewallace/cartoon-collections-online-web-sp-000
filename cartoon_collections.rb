@@ -11,8 +11,8 @@ end
 end
 
 
-def long_planeteer_calls(array)
-  array.any? {|word| word.size > 4}
+def long_planeteer_calls(calls)
+  calls.any? {|word| word.size > 4}
   return true
 end
 
