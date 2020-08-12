@@ -2,7 +2,6 @@ def roll_call_dwarves(array)
   array.each_with_index do |element, index|
     "#{index.to_i + 1}.#{element}"
   end
-  roll_call_dwarves(array)
 end
 
 def summon_captain_planet# code an argument here
